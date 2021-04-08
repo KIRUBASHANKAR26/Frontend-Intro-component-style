@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="container">
+      <div class="left-column">
+        <h2>Learn to code by watching others</h2>
+        <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.</p> 
+      </div>
+      <div class="right-column">
+        <button><span>Try it free 7 days</span> then $20/mo. there after</button> 
+        <form id="form" action="#">
+          <div class="form-control">
+            <input id="first-name" class="input-index" type="text" placeholder="First Name"><br>
+            <img src="./images/icon-error.svg" alt="error-icon">
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <input id="last-name" class="input-index" type="text" placeholder="Last Name"><br>
+            <img src="./images/icon-error.svg" alt="error-icon">
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <input id="email-address" class="input-index" type="email" placeholder="Email Address"><br>
+            <img src="./images/icon-error.svg" alt="error-icon">  
+            <small>Error message</small>
+          </div>
+          <div class="form-control">
+            <input id="password" class="input-index" type="password" placeholder="Password"><br>
+            <img src="./images/icon-error.svg" alt="error-icon">
+            <small>Error message</small>
+          </div>
+        <button type="submit" id="submit">Claim your free trial</button> 
+        <p>By clicking the button, you are agreeing to our<span> Terms and Services</span> </p>
+      </form>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+  <script src="./style.js"></script>
+</body>
+</html>
